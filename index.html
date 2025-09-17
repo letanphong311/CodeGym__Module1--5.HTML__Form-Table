@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="font-weight: 500;">Market Research Survey</h2>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+        <form action="">
+            <label for="">What is your age range?</label>
+            <br>
+            <select style="width: 710px; height: 25px; margin-top: 10px" >
+                <option value="" checked>18-24</option>
+                <option value="">25-34</option>
+                <option value="">35-50</option>
+                <option value="">50+</option>
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form action="">
+            <label for="">What is your yearly income range?</label>
+            <br>
+            <select style="width: 710px; height: 25px; margin-top: 10px" >
+                <option value="" checked>$0 - $25,000</option>
+                <option value="">$25,001 - $50,000</option>
+                <option value="">$50,001 - $100,000</option>
+                <option value="">$100,000+</option>
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <p style="font-weight: 350; margin-bottom: 4px;"><b>Gender Identity</b></p>
+        <form action="">
+            <input type="radio" name="input" id="male" >
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="input" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="input" id="nonbinary">
+            <label for="nonbinary">Nonbinary</label>
+            <br>
+            <input type="radio" name="input" id="other">
+            <label for="other">Other</label>
+            <br>
+            <input style="width: 140px; margin-left: 20px;" type="text" id="">
+        </form>
+    </div>
+
+    <div>
+         <p style="font-weight: 350; margin-bottom: 4px;"><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></p>
+         <form action="" style="display: flex; flex-direction: column;">
+            <label for="checkbox1">
+                <input type="checkbox" name="" id="checkbox1">
+                Product 1
+            </label>
+             <label for="checkbox2">
+                <input type="checkbox" name="" id="checkbox2">
+                Product 2
+            </label>
+             <label for="checkbox3">
+                <input type="checkbox" name="" id="checkbox3">
+                Product 3
+            </label>
+         </form>
+    </div>
+
+    <div>
+        <p style="font-weight: 350; margin-bottom: 4px;"><b>How often would you use our new product?</b></p>
+        <form action="">
+            <input type="radio" name="input" id="Daily" >
+            <label for="Daily">Daily</label>
+            <br>
+            <input type="radio" name="input" id="Weekly">
+            <label for="Weekly">Weekly</label>
+            <br>
+            <input type="radio" name="input" id="Monthly">
+            <label for="Monthly">Monthly</label>
+            <br>
+        </form>
+    </div>
+
+    <div>
+        <p style="font-weight: 350; margin-bottom: 4px;"><b>What would you pay for the new product?</b></p>
+        <form action="">
+            <label for="" style="display: flex;">$
+                <div style="display: flex; flex-direction: column; margin-right: 2px; margin-left: 4px;">
+                    <input type="text" style="width: 70px;">
+                    Dollars
+                </div>
+                . 
+                <div style="display: flex; flex-direction: column; margin-right: 2px; margin-left: 4px;">
+                <input type="text" style="width: 10px;">
+                Cents   
+                </div>
+            </label>
+        </form>
+    </div>
+
+    <div>
+        <p><b>What features would you like to see in the new product.</b></p>
+        <textarea name="" id=""></textarea>
+    </div>
+
+    <div>
+        <p>Please rate your level of agreement with the following statements</p>
+
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td></td>
+                <td style="width: 140px; text-align: center;">Strongly Disagree</td>
+                <td style="width: 140px; text-align: center;">Disagree</td>
+                <td style="width: 140px; text-align: center;">Agree</td>
+                <td style="width: 140px; text-align: center;">Strongly Agree</td>
+            </tr>
+
+            <tr>
+                <th style="width: 308px;">Our products are priced fairly</th>
+                <td class="column" style="text-align: center;">
+                    <input type="radio" name="group1">
+                    <br>
+                    1
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group1">
+                    <br>
+                    2
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group1">
+                    <br>
+                    3
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group1">
+                    <br>
+                    4
+                </td>
+            </tr>
+
+            <tr>
+                <th style="width: 308px;">Our products are high quality</th>
+                <td class="column" style="text-align: center;">
+                    <input type="radio" name="group2">
+                    <br>
+                    1
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group2">
+                    <br>
+                    2
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group2">
+                    <br>
+                    3
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group2">
+                    <br>
+                    4
+                </td>
+            </tr>
+
+            <tr>
+                <th style="width: 308px;">You would recommend our products to a friend or coworker</th>
+                <td class="column" style="text-align: center;">
+                    <input type="radio" name="group3">
+                    <br>
+                    1
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group3">
+                    <br>
+                    2
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group3">
+                    <br>
+                    3
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="group3">
+                    <br>
+                    4
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <input type="submit" value="Submit" style="margin-top: 10px;">
+</body>
+</html>
